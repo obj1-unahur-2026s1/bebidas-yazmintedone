@@ -1,0 +1,9 @@
+import bebidas.*
+import tito.*
+
+describe "test de Tito" {
+  test "tito consume 18 de whisky" {
+    tito.consumir(18, whisky)
+    assert.equals(whisky,tito.sustanciaActual() )
+  }
+}
